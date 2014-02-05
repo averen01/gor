@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Tipo Orden Servicios'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List TipoOrdenServicio', 'url'=>array('index')),
-	array('label'=>'Manage TipoOrdenServicio', 'url'=>array('admin')),
+	array('label'=>'Listado', 'url'=>array('index')),
+	array('label'=>'Gestionar', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create TipoOrdenServicio</h1>
+<h1>Crear Tipo Orden Servicio</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -4,15 +4,18 @@
 ?>
 
 <div class="view">
-
+        
+        
 	<b><?php echo CHtml::encode($data->getAttributeLabel('co_tipo_orden_servicio')); ?>:</b>
 	<?php echo CHtml::link(CHtml::encode($data->co_tipo_orden_servicio), array('view', 'id'=>$data->co_tipo_orden_servicio)); ?>
 	<br />
-
+        
+        <?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_tipo_orden_servicio')); ?>:</b>
 	<?php echo CHtml::encode($data->id_tipo_orden_servicio); ?>
 	<br />
-
+        */ ?>
+        
 	<b><?php echo CHtml::encode($data->getAttributeLabel('nb_tipo_servicio')); ?>:</b>
 	<?php echo CHtml::encode($data->nb_tipo_servicio); ?>
 	<br />
